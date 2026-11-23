@@ -17,6 +17,9 @@ use simoder_base_packager::{
 use tempfile::TempDir;
 
 fn base_repo_root() -> PathBuf {
+    if let Ok(dir) = std::env::var("SIMODER_BASE_DIR") {
+        return PathBuf::from(dir);
+    }
     Path::new(env!("CARGO_MANIFEST_DIR"))
         .parent()
         .and_then(Path::parent)
