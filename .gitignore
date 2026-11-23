@@ -1,8 +1,9 @@
 /build/
 /target/
 /.analysis/
-**/bin/
 **/obj/
+/bin/
+build/bin/
 **/__pycache__/
 *.py[cod]
 **/.pytest_cache/
