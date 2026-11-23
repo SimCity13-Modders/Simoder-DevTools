@@ -1,0 +1,94 @@
+schemaVersion = 1
+workspaceVersion = "0.2.0-beta"
+
+[[components]]
+id = "simoder-sdk"
+repository = "SimCity13-Modders/Simoder-SDK"
+relativeSourceDir = "Simoder-SDK"
+version = "0.2.0"
+
+[[components.pinnedFiles]]
+relativePath = "sdk-manifest.json"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "contracts-matrix.json"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "Luau/simoder.d.luau"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "Luau/base.d.luau"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "TypeScript/simoder.d.ts"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "TypeScript/base.d.ts"
+targetCategory = "sdk"
+
+[[components.pinnedFiles]]
+relativePath = "Native/native.h"
+targetCategory = "sdk"
+
+[[components]]
+id = "simoder-base"
+repository = "SimCity13-Modders/Simoder-Base"
+relativeSourceDir = "Simoder-Base"
+version = "0.2.0-alpha"
+
+[[components.pinnedFiles]]
+relativePath = "mod.toml"
+targetCategory = "base"
+
+[[components.pinnedFiles]]
+relativePath = "package-files.json"
+targetCategory = "base"
+
+[[components.pinnedFiles]]
+relativePath = "scripts/init.luau"
+targetCategory = "base"
+
+[[components.pinnedFiles]]
+relativePath = "scripts/lib/facade.luau"
+targetCategory = "base"
+
+[[components]]
+id = "simoder-authoring"
+repository = "SimCity13-Modders/Simoder-DevTools-Authoring"
+relativeSourceDir = "Simoder-DevTools-Authoring"
+version = "0.2.0"
+
+[[components.pinnedFiles]]
+relativePath = "tools/scripts/typescript/build.mjs"
+targetCategory = "authoring"
+
+[[components.pinnedFiles]]
+relativePath = "tools/scripts/typescript/package.json"
+targetCategory = "authoring"
+
+[[components.pinnedFiles]]
+relativePath = "templates/minimal-luau/mod.toml"
+targetCategory = "authoring"
+
+[[components.pinnedFiles]]
+relativePath = "templates/minimal-typescript/mod.toml"
+targetCategory = "authoring"
+
+[[components]]
+id = "simoder-mcp"
+repository = "SimCity13-Modders/Simoder-MCP"
+relativeSourceDir = "Simoder-DevTools-MCP"
+version = "0.2.0"
+
+[[components.pinnedFiles]]
+relativePath = "Cargo.toml"
+targetCategory = "mcp"
+
+[[components.pinnedFiles]]
+relativePath = "crates/simoder-mcp/Cargo.toml"
+targetCategory = "mcp"

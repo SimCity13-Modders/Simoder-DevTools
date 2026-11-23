@@ -1,0 +1,22 @@
+[package]
+name = "simoder-workspace"
+description = "Host-only CLI assembling a pinned offline Simoder developer workspace without network access or game-root pollution"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "simoder-workspace"
+path = "src/bin/simoder-workspace.rs"
+
+[dependencies]
+hex.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+toml.workspace = true
+walkdir.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

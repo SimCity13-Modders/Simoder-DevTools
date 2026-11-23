@@ -1,0 +1,19 @@
+schemaVersion = 2
+format = "simoder.native-devtool"
+kind = "developer-mod"
+hostAbiVersion = 2
+
+[metadata]
+id = "simoder.devtools"
+name = "Simoder Developer Tools (Native MCP)"
+version = "0.2.0"
+author = "Simoder"
+description = "Optional game-owned native MCP DevTool mod (.dll) interacting with Simoder via ABI v2"
+
+[native]
+module = "simoder_mcp.dll"
+contractVersion = 2
+
+[tools]
+compiler = "Tools/simoder-build.exe"
+typescript-toolchain = "Tools/toolchains/typescript"
